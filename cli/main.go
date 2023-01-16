@@ -27,7 +27,7 @@ const defaultUserAgent = `Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:98.0) Gecko
 func init() {
 	flag.BoolVar(&help, "help", false, "shows help; equals `help` command; ignores other flags")
 	flag.StringVar(&output, "output", "output.gif", "output file; output.gif")
-	flag.StringVar(&output, "o", "output.gif", "alias for --output")
+	flag.StringVar(&output, "o", "output/output.gif", "alias for --output")
 	flag.StringVar(&tmp, "tmp", "temp", "temp directory")
 	flag.BoolVar(&notDeleteTempFile, "not-del-temp", false, "doesn't delete temp file if put")
 	flag.BoolVar(&overwrite, "overwrite", false, "overwrites output file if it exists")
