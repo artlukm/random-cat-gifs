@@ -1,4 +1,4 @@
-# Random cat gifs
+## Random cat gifs
 
 Based on https://habr.com/ru/post/668162/
 
